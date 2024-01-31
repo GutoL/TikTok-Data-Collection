@@ -1,1 +1,1 @@
-# TikTok-Collector
+# TikTok Project
