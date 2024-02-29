@@ -18,7 +18,7 @@ This project utilizes the official TikTok API to collect data from the TikTok pl
     ```bash
     pip install -r requirements.txt
 
-3. Obtain your TikTok developer credentials from the TikTok Developer Dashboard. Update the configuration file config.json with your TikTok developer credentials:
+3. Obtain your TikTok developer credentials from the TikTok Developer Dashboard. Update the configuration file _config_files/config.json_ with your TikTok developer credentials:
    ```json
       {
         "client_key" : "your-api-key"
@@ -29,9 +29,10 @@ This project utilizes the official TikTok API to collect data from the TikTok pl
 ## Usage
 Run the Python scripts to collect TikTok data:
 
-collect_user_info.py: Collect user information based on usernames.
-collect_video_info.py: Collect video information based on video URLs.
-collect_comments.py: Collect comments for a given video.
+- collect_video_info.py: Collect video information based on video URLs.
+- collect_comments.py: Collect comments for a given video.
+- collect_user_info.py: Collect user information based on usernames.
+
 Each script may require different parameters such as usernames, video URLs, hashtags, etc. Ensure to provide the necessary inputs as per the script requirements.
 
 Execute the scripts:
