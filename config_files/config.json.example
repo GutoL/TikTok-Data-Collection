@@ -1,0 +1,10 @@
+{
+    "client_key": "your-key-here",
+    "client_secret": "your-key-here",
+    "grant_type": "client_credentials",
+    "token_url":"https://open.tiktokapis.com/v2/oauth/token/",
+    "videos_url":"https://open.tiktokapis.com/v2/research/video/query/?fields=",
+    "display_videos_url":"https://open.tiktokapis.com/v2/video/query/?fields=",
+    "users_url": "https://open.tiktokapis.com/v2/research/user/info/?fields=",
+    "comments_url": "https://open.tiktokapis.com/v2/research/video/comment/list/?fields="
+}
